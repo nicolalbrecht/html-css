@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>Tabelas</title>
+	<style>
+		body {font-family: Arial;}
+		h1 {text-align: center;}
+		
+		table.a {margin: auto; width: 400px; border-collapse: collapse; height: 400px; text-align: right; /* Alinhamento Horizontal*/ font-weight: bolder;}
+		
+		table.a > tr > td, td.a1, td.a2, td.a3, td.a4 {border: 4px solid black; padding: 10px; vertical-align: middle;}	
+		td.a1 {background-color: yellow;}
+		td.a2 {background-color: orange;}
+		td.a3 {background-color: #ff5e00;}
+		td.a4 {background-color: red;}
+
+		table.b {margin-left: auto; margin-right: auto; margin-top: 100px; font-weight: bolder;}
+		table.b > tr > td, td.a, td.b, td.c, td.d, td.e {padding: 20px; border: 4px solid black; border-radius: 5px;}		
+		td.a {background-color: black; color: white;}
+		td.b {background-color: #1b1b1b; color: white;}
+		td.c {background-color: #3d3d3d; color: white;}
+		td.d {background-color: #828282; color: white;}
+		td.e {background-color: #d4d4d4;}
+		
+		table.c {margin-left: auto; margin-right: auto; margin-top: 100px;}
+		table.c > tr > td, td.cA, td.cB, td.cC, td.cD {border: 2px solid black; text-align: center; height: 200px; width: 200px; vertical-align: bottom;}
+		td.cA {background-color: darkblue; color: white;}
+		td.cB {background-color: #0000ff; color: white;}
+		td.cC {background-color: #4646ff; color: white;}
+		td.cD {background-color: #9797ff;}
+		td.cE {background-color: #0000ff; color: white;}
+		td.cF {background-color: #4646ff; color: white;}
+		td.cG {background-color: #9797ff;}
+		td.cH {}
+	</style>
+</head>
+<body>
+	<h1>Minha(s) primeira(s) Tabela(s)</h1>
+	<!-- 
+		HIERARQUIA DE TABELAS (simples)
+		TABLE -> tabela
+			TABLE ROW -> linhas de tabela
+				TABLE HEADER -> cabeçalho de tabela
+				TABLE DATA -> dado de tabela
+	-->	
+	<table class="a">
+			<tr>
+				<td class="a1">A1</td>
+				<td class="a1">B1</td>
+				<td class="a1">C1</td>
+
+			</tr>
+			<tr>
+				<td class="a2">A2</td>
+				<td class="a2">B2</td>
+				<td class="a2">C2</td>
+			</tr>
+			<tr>
+				<td class="a3">A3</td>
+				<td class="a3">B3</td>
+				<td class="a3">C3</td>
+			</tr>
+			<tr>
+				<td class="a4">A4</td>
+				<td class="a4">B4</td>
+				<td class="a4">C4</td>
+			</tr>
+	</table>
+	<table class="b">
+		<tr>
+			<td class="e">E1
+			<td class="e">E2
+			<td class="e">E3
+			<td class="e">E4
+			<td class="e">E5		
+		</tr>
+		<tr>
+			<td class="d">D1
+			<td class="d">D2
+			<td class="d">D3
+			<td class="d">D4
+		</tr>
+		<tr>
+			<td class="c">C1
+			<td class="c">C2
+			<td class="c">C3		
+		</tr>
+		<tr>
+			<td class="b">B1
+			<td class="b">B2
+		</tr>
+		<tr>
+			<td class="a">A1		
+		</tr>
+	</table>
+	<table class="c">
+			<tr>
+				<td class="cA">A1</td>
+				<td class="cB">B1</td>
+				<td class="cC">C1</td>
+				<td class="cD">D1</td>
+
+			</tr>
+			<tr>
+				<td class="cB">A2</td>
+				<td class="cA">B2</td>
+				<td class="cB">C2</td>
+				<td class="cC">D2</td>
+			</tr>
+			<tr>
+				<td class="cC">A3</td>
+				<td class="cB">B3</td>
+				<td class="cA">C3</td>
+				<td class="cB">D3</td>
+			</tr>
+			<tr>
+				<td class="cD">A4</td>
+				<td class="cC">B4</td>
+				<td class="cB">C4</td>
+				<td class="cA">D4
+			</tr>
+	</table>
+</body>
+</html>

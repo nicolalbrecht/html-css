@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>Tabelas</title>
+	<style>
+		body {font-family: Arial;}
+		table {width: 600px; border-collapse: collapse;}
+		th, td {border: 1px solid black; padding: 10px;}
+		thead, tfoot {background-color: darkblue; color: white;}
+		
+		.num {text-align: right;}
+	
+		caption {padding: 10px; font-size: 1.5em; font-weight: bold; background-color: lightblue;}
+	</style>
+</head>
+<body>
+	<h1>Uso de Tabelas Grandes</h1>
+	<!-- 
+	ANATOMIA PARA TABELAS GRANDES
+	TABLE 
+		THEAD
+			TR
+				TH
+		TBODY
+			TR
+				TD
+		TFOOT
+	-->
+	<table>
+		<caption>População das Unidades Federatias do País</caption>
+		<thead>
+			<tr>
+				<th scope="col">Estado
+				<th scope="col" style="width: 50px;">População
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>São Paulo
+				<td class="num">46.649.132	
+			</tr>
+			<tr>
+				<td>Minas Gerais
+				<td class="num">21.411.923	
+			</tr>
+			<tr>
+				<td>Rio de Janeiro
+				<td class="num">17.463.349	
+			</tr>
+			<tr>
+				<td>Bahia
+				<td class="num">14.985.284	
+			</tr>
+			<tr>
+				<td>Paraná
+				<td class="num">11.597.484				
+			</tr>
+			<tr>
+				<td>Rio Grande do Sul
+				<td class="num">11.466.630	
+			</tr>
+			<tr>
+				<td>Pernambuco
+				<td class="num">9.674.793	
+			</tr>
+			<tr>
+				<td>Ceará
+				<td class="num">9.240.580	
+			</tr>
+			<tr>
+				<td>Pará
+				<td class="num">8.777.124	
+			</tr>
+			<tr>
+				<td>Santa Catarina
+				<td class="num">7.338.473	
+			</tr>
+			<tr>
+				<td>Goiás
+				<td class="num">7.206.589	
+			</tr>
+			<tr>
+				<td>Maranhão
+				<td class="num">7.153.262	
+			</tr>
+			<tr>
+				<td>Amazonas
+				<td class="num">4.269.995	
+			</tr>
+			<tr>
+				<td>Espírito Santo
+				<td class="num">4.108.508	
+			</tr>
+			<tr>
+				<td>Paraíba
+				<td class="num">4.059.905	
+			</tr>
+			<tr>
+				<td>Mato Grosso
+				<td class="num">3.567.234		
+			</tr>
+			<tr>
+				<td>Rio Grande do Norte
+				<td class="num">3 .560.903		
+			</tr>
+			<tr>
+				<td>Alagoas
+				<td class="num">3.365.351		
+			</tr>
+			<tr>
+				<td>Piauí
+				<td class="num">3.289.290		
+			</tr>
+			<tr>
+				<td>Distrito Federal
+				<td class="num">3.094.325	
+			</tr>
+			<tr>
+				<td>Mato Grosso do Sul
+				<td class="num">2.839.188		
+			</tr>
+			<tr>
+				<td>Sergipe
+				<td class="num">2.338.474		
+			</tr>
+			<tr>
+				<td>Rondônia
+				<td class="num">1.815.278	
+			</tr>
+			<tr>
+				<td>Tocantins
+				<td class="num">1.607.363		
+			</tr>
+			<tr>
+				<td>Acre
+				<td class="num">906.876		
+			</tr>
+			<tr>
+				<td>Amapá
+				<td class="num">877.613		
+			</tr>
+			<tr>
+				<td>Roraima
+				<td class="num">652.713		
+			</tr>
+		</tbody>
+		<tfoot>
+			<tr>
+				<th scope="row">Total de Habitantes
+				<td scope="row" class="num"><strong>210.147.125</strong>
+			</tr>
+		</tfoot>
+	</table>
+</body>
+</html>
