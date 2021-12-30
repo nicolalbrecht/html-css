@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>Tabela4</title>
+	<style>
+	body {font-family: Arial;}
+	
+	table {width: 600px; height: 200px; border-collapse: collapse;}
+	table th {text-align: center;}
+	table td {text-align: left;}
+	table td, th {border: 1px solid black; padding: 10px;}
+	caption {font-size: 1.3em;}
+	</style>
+<body>
+	<h1>Exercício de Tabelas</h1>
+	<table>
+		<caption>Filmes Favoritos</caption>
+		<thead>
+			<tr>
+				<th scope="col">Grupo 
+				<th scope="col">Nomes
+				<th scope="colgroup" colspan="3">Filmes
+			</tr>
+		</thead>
+		<tfoot>
+			<th scope="row" colspan="4">Total
+			<td>1000
+		</tfoot>
+		<tbody>
+			<tr>
+				<th scope="rowgroup" rowspan="3">Mulheres
+				<td>Ana Maria Santos
+				<td>Alien
+				<td>Rambo
+				<td>Vingadores
+			</tr>
+			<tr>
+				<td>Beatriz Souza
+				<td>Hulk
+				<td>Inception
+				<td>Batman
+			</tr>
+			<tr>
+				<td>Cláudia Melo
+				<td>Oblivion
+				<td>Matrix
+				<td>Big Hero
+			</tr>
+			<tr>
+				<th scope="rowgroup" rowspan="3">Homens
+				<td>Bruno Medonça
+				<td>Intocáveis
+				<td>Amnésia
+				<td>Gladiador
+			</tr>
+			<tr>
+				<td>Daniel Lourenço
+				<td>Wall-E
+				<td>Oldboy
+				<td>Dangal
+			</tr>
+			<tr>
+				<td>Fabiano Mota
+				<td><abbr title="O Império Contra-Ataca">Star Wars 5</abbr>
+				<td>Taxi Driver
+				<td>Toy Story
+			</tr>
+		</tbody>
+	</table>
+</body>
+</head>
+</html>
